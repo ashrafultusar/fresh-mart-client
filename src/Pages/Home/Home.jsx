@@ -1,10 +1,13 @@
 import React from "react";
+import Bannar from "./Bannar";
+import AllCategory from "./AllCategory";
 
 const Home = () => {
   return (
     <div>
-      <h1 className="text-red-600"> this is home</h1>
-    </div>
+      <Bannar></Bannar>
+<AllCategory></AllCategory>
+      </div>
   );
 };
 
