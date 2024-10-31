@@ -43,30 +43,35 @@ const Banner = () => {
           </div>
         </div>
       </div>
+          
+          <div className="relative flex flex-col md:flex-row justify-center text-white
+        -mt-20 
+       
+           ">
+  <div className="bg-[#6BB252] flex items-center px-6 py-12 shadow-lg">
+    <FaRecycle className="text-4xl mr-4" />
+    <div>
+      <h2 className="font-semibold text-xl">Fresh from farm</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+    </div>
+  </div>
+  <div className="bg-[#364127] flex items-center px-6 py-12 shadow-lg">
+    <AiOutlineCheckCircle className="text-4xl mr-4" />
+    <div>
+      <h2 className="font-semibold text-xl">100% Organic</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+    </div>
+  </div>
+  <div className="bg-[#F95F09] flex items-center px-6 py-12 shadow-lg">
+    <FaTruck className="text-4xl mr-4" />
+    <div>
+      <h2 className="font-semibold text-xl">Free Delivery</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+    </div>
+  </div>
+</div>
 
-      <div className="relative flex justify-center text-white -mt-20">
-        <div className="bg-[#6BB252] flex items-center px-6 py-12  shadow-lg">
-          <FaRecycle className="text-4xl mr-4" />
-          <div>
-            <h2 className="font-semibold text-xl">Fresh from farm</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-          </div>
-        </div>
-        <div className="bg-[#364127] flex items-center px-6 py-12  shadow-lg">
-          <AiOutlineCheckCircle className="text-4xl mr-4" />
-          <div>
-            <h2 className="font-semibold text-xl">100% Organic</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-          </div>
-        </div>
-        <div className="bg-[#F95F09] flex items-center px-6 py-12  shadow-lg">
-          <FaTruck className="text-4xl mr-4" />
-          <div>
-            <h2 className="font-semibold text-xl">Free Delivery</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-          </div>
-        </div>
-      </div>
+
     </div>
   );
 };
