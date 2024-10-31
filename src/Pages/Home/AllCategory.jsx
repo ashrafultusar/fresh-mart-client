@@ -1,3 +1,4 @@
+import { FaArrowRight,FaArrowLeftLong } from "react-icons/fa6";
 
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,20 +17,21 @@ import { Navigation, Pagination,Autoplay } from "swiper/modules";
 
 const AllCategory = () => {
   const prevRef = useRef(null);
-  const nextRef = useRef(null);
+  const nextRef = useRef(null); 
 
   return (
-    <div className="container mx-auto my-24">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-lg font-bold">Category</h2>
+    <div className="container mx-auto my-12">
+      <div className=" flex justify-between items-center mb-16">
+        <h2 className="text-lg md:text-3xl font-bold">Category</h2>
         <div className="flex items-center gap-2">
-          <button ref={prevRef} className="bg-gray-200 p-2 rounded-full hover:bg-gray-300">
-            &#8592;
+          <button ref={prevRef} className="bg-gray-200 py-3 px-5 rounded-md hover:bg-gray-300">
+            
+            <FaArrowLeftLong />
           </button>
-          <button ref={nextRef} className="bg-gray-200 p-2 rounded-full hover:bg-gray-300">
-            &#8594;
+          <button ref={nextRef} className="bg-gray-200 py-3 px-5 rounded-md hover:bg-gray-300">
+          <FaArrowRight />
           </button>
-          <button className="bg-green-500 text-white px-4 py-2 rounded">View All</button>
+          <button className="bg-[#6bb252] text-white hover:bg-orange-400  px-4 py-2 rounded">View All</button>
         </div>
       </div>
       

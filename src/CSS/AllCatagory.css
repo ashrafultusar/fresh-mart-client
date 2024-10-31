@@ -1,0 +1,10 @@
+/* Optional styles for scroll effects */
+.banner-parallax {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+  }
+  .all-category-section {
+    margin-top: 720px; /* Matches banner height for smooth scroll overlap */
+  }
+  
