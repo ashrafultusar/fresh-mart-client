@@ -13,32 +13,32 @@ const Banner = () => {
         className="relative h-[720px] bg-cover bg-center"
         style={{ backgroundImage: `url(${bgPhoto})` }}
       >
-        <div className="absolute inset-0 bg-opacity-50"></div>
-        <div className="relative z-10 flex flex-col items-start justify-center h-full px-10 md:px-20 text-white">
-          <h1 className="text-5xl font-bold text-green-500 mb-3">
-            Organic Foods at your Doorsteps
+        <div className="absolute inset-0 bg-opacity-50 "></div>
+        <div className="relative z-10 flex flex-col items-start justify-center h-full px-10 md:px-20">
+          <h1 className="text-xl md:text-5xl lg:text-7xl font-poppins font-bold text-green-500 mb-3">
+            <span className="text-[#6bb252]">Organic</span> <span className="text-black">Foods at your <br />Doorsteps</span>
           </h1>
-          <p className="text-lg mb-5">Dignissim massa diam elementum.</p>
+          <p className="text-lg mb-5 opacity-80">Dignissim massa diam elementum.</p>
           <div className="flex space-x-4 mb-10">
-            <button className="bg-green-500 text-white font-semibold py-2 px-5 rounded">
+            <button className="bg-[#6bb252] text-white font-semibold py-4 px-6 rounded-full hover:bg-orange-400 ">
               Start Shopping
             </button>
-            <button className="bg-black text-white font-semibold py-2 px-5 rounded">
+            <button className="bg-black text-white font-semibold py-2 px-5 rounded-full hover:shadow-2xl">
               Join Now
             </button>
           </div>
-          <div className="flex space-x-10 mt-10 text-white">
+          <div className="flex space-x-10 mt-10">
             <div>
-              <h2 className="text-2xl font-bold">14k+</h2>
-              <p>Product Varieties</p>
+              <h2 className="text-xl md:text-3xl lg:text-4xl font-bold font-poppins">14k+</h2>
+              <p className="text-sm md:text-xl">Product Varieties</p>
             </div>
             <div>
-              <h2 className="text-2xl font-bold">50k+</h2>
-              <p>Happy Customers</p>
+              <h2 className="text-xl md:text-3xl lg:text-4xl font-bold font-poppins">50k+</h2>
+              <p className="text-sm md:text-xl">Happy Customers</p>
             </div>
             <div>
-              <h2 className="text-2xl font-bold">10+</h2>
-              <p>Store Locations</p>
+              <h2 className="text-xl md:text-3xl lg:text-4xl font-bold font-poppins">10+</h2>
+              <p className="text-sm md:text-xl">Store Locations</p>
             </div>
           </div>
         </div>
