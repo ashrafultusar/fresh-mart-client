@@ -8,7 +8,7 @@ import bgPhoto from "../../assets/images/banner-1.jpg";
 const Banner = () => {
   return (
     <div>
-      <div></div>
+      <div></div> 
       <div
         className="relative h-[720px] bg-cover bg-center"
         style={{ backgroundImage: `url(${bgPhoto})` }}
