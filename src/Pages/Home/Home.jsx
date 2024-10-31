@@ -5,6 +5,7 @@ import DiscountAdd from "./DiscountAdd";
 import Purchase from "./Purchase";
 import Download from "./Download";
 import SearchTag from "./SearchTag";
+import HomeFetured from "./HomeFetured";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Purchase></Purchase>
       <Download></Download>
       <SearchTag></SearchTag>
+      <HomeFetured></HomeFetured>
       </div>
   );
 };
