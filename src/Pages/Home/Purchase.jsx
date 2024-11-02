@@ -1,7 +1,7 @@
 import img1 from "../../assets/images/category-thumb-6.jpg";
 const Purchase = () => {
   return (
-    <div className="container mx-auto my-24">
+    <div className="container mx-auto my-24 px-3">
       <div className="hero bg-cover bg-center" style={{ backgroundImage: `url('${img1}')` }}>
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left text-white">

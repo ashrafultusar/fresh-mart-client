@@ -4,7 +4,7 @@ import img3 from "../../assets/images/banner-ad-3.jpg";
 
 const DiscountAdd = () => {
   return (
-    <div className="container mx-auto my-20">
+    <div className="container mx-auto my-20 px-3">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4"> 
         {/* Left Column */}
         <div

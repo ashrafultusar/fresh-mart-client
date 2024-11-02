@@ -5,7 +5,7 @@ import img from '../../assets/images/banner-onlineapp.png'
 
 const Download = () => {
   return (
-    <div className="container mx-auto my-24">
+    <div className="container mx-auto my-24 px-3">
       <div className="bg-[#ffc107] flex flex-col md:flex-row justify-center items-center gap-8 py-12 space-y-6 rounded-2xl relative p-12">
         
         <div className="space-y-3 -mb-8">

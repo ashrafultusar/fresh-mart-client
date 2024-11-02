@@ -20,7 +20,7 @@ const AllCategory = () => {
   const nextRef = useRef(null); 
 
   return (
-    <div className="container mx-auto my-12">
+    <div className="container mx-auto my-12 px-4">
       <div className=" flex justify-between items-center mb-16">
         <h2 className="text-lg md:text-3xl font-bold">Category</h2>
         <div className="flex items-center gap-2">

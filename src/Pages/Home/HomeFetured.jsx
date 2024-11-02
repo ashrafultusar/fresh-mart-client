@@ -13,7 +13,7 @@ const HomeFetured = () => {
           <p class="text-gray-600 w-64">
             Lorem ipsum dolor sit amet, consectetur adipi elit.
           </p>
-        </div>
+        </div> 
         <div class="border border-black space-y-2 p-5 text-start rounded-md shadow-sm">
           <div class="text-3xl mb-2">🔒</div>
           <h3 class="font-bold text-lg">100% secure payment</h3>
