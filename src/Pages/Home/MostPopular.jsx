@@ -1,5 +1,5 @@
 import { IoMdHeartEmpty } from "react-icons/io";
-import product1 from "../../assets/images/product-thumb-5.png";
+import product1 from "../../assets/images/product-thumb-12.png";
 import { FaArrowRight, FaArrowLeftLong } from "react-icons/fa6";
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,14 +8,13 @@ import "swiper/css/pagination";
 import "swiper/css/navigation"; // Import for Navigation CSS
 import { Navigation } from "swiper/modules"; // Import Navigation
 
-const FeaturedProducts = () => {
-  const prevRef = useRef(null);
-  const nextRef = useRef(null);
-
-  return (
-    <div className="container mx-auto my-24 px-4">
+const MostPopular = () => {
+    const prevRef = useRef(null);
+    const nextRef = useRef(null);
+    return (
+        <div className="container mx-auto px-4">
       <div className="flex justify-between items-center mb-16">
-        <h2 className="text-lg md:text-3xl font-bold">Featured products</h2>
+        <h2 className="text-lg md:text-3xl font-bold">Most popular products</h2>
         <div className="flex items-center gap-2">
           <button ref={prevRef} className="bg-gray-200 py-3 px-5 rounded-md hover:bg-gray-300">
             <FaArrowLeftLong />
@@ -95,7 +94,7 @@ const FeaturedProducts = () => {
         ))}
       </Swiper>
     </div>
-  );
+    );
 };
 
-export default FeaturedProducts;
+export default MostPopular;

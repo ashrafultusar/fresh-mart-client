@@ -17,7 +17,7 @@ const RecentBlog = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               
-        <div class="h-[400px] bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+        <div class="h-[450px] bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
           <img src={img1} alt="" className="w-full h-60 object-cover" />
           <div class="p-4">
             <div class="flex items-center text-gray-500 text-xs mb-2">
@@ -36,7 +36,7 @@ const RecentBlog = () => {
           </div>
         </div>
 
-        <div class=" bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+        <div class="h-[450px] bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
           <img src={img2} alt="" className="w-full h-60 object-cover" />
           <div class="p-4">
             <div class="flex items-center text-gray-500 text-xs mb-2">
@@ -55,7 +55,7 @@ const RecentBlog = () => {
           </div>
         </div>
 
-        <div class=" bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+        <div class="h-[450px] bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
           <img src={img3} alt="" className="w-full h-60 object-cover" />
           <div class="p-4">
             <div class="flex items-center text-gray-500 text-xs mb-2">
