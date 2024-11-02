@@ -41,7 +41,7 @@ const Navbar = () => {
         >
           <button
             onClick={toggleSidebar}
-            className="btn btn-ghost absolute top-4 right-4 text-black"
+            className=" absolute top-4 right-4 text-black "
           >
             <ImCross className="text-2xl" />
           </button>
@@ -178,29 +178,27 @@ const Navbar = () => {
             <a className="btn btn-primary mt-4">Login</a>
           </div>
         </div>
+
         <div className="flex items-center space-x-8">
           {/* Toggle Button for Sidebar */}
-          <button onClick={toggleSidebar} className="btn btn-ghost">
+          <button onClick={toggleSidebar} className="">
             <svg
+              className="swap-off fill-current"
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+              width="32"
+              height="32"
+              viewBox="0 0 512 512"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
+              <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
             </svg>
           </button>
 
           {/* Logo */}
           <button className="flex items-center gap-1 text-xl">
             <img className="w-10" src={logo} alt="Logo" />
-            Organic
+            <p className="font-poppins font-bold text-[#364127]">
+              Food<span className="text-[#F95F09] ">Mart</span>
+            </p>
           </button>
         </div>
       </div>
@@ -253,11 +251,11 @@ const Navbar = () => {
           HOME
         </a>
 
-        <details className="dropdown">
-          <summary className="font-medium text-gray-700 cursor-pointer">
+        <details className="dropdown z-50">
+          <summary className="font-medium text-gray-700 cursor-pointer ">
             PAGES
           </summary>
-          <ul className="menu dropdown-content bg-base-100 rounded-box w-48 p-2 shadow">
+          <ul className="menu dropdown-content bg-base-100  w-48 p-2 shadow">
             <li>
               <a>ABOUT US</a>
             </li>
