@@ -7,6 +7,8 @@ import Download from "./Download";
 import SearchTag from "./SearchTag";
 import HomeFetured from "./HomeFetured";
 import BestSellingProducts from "./BestSellingProducts";
+import FeaturedProducts from "./FeaturedProducts";
+import RecentBlog from "./RecentBlog";
 
 const Home = () => {
   return (
@@ -15,7 +17,9 @@ const Home = () => {
       <AllCategory></AllCategory>
       <BestSellingProducts></BestSellingProducts>
       <DiscountAdd></DiscountAdd>
+      <FeaturedProducts></FeaturedProducts>
       <Purchase></Purchase>
+      <RecentBlog></RecentBlog>
       <Download></Download>
       <SearchTag></SearchTag>
       <HomeFetured></HomeFetured>

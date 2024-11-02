@@ -4,7 +4,10 @@ import product1 from "../../assets/images/product-thumb-1.png";
 
 const BestSellingProducts = () => {
   return (
-    <div className="container mx-auto my-24">
+    <div className="container mx-auto my-24 px-4">
+
+      <h1 className="font-poppins md:text-2xl lg:text-4xl font-bold">Best selling products</h1>
+
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
         <div class="group  hover:bg-base-100 hover:shadow-xl rounded-md text-center p-7 flex flex-col items-center relative h-[400px]">
           <img src={product1} alt="img1" class="pl-4" />
