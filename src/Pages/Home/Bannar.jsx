@@ -20,10 +20,10 @@ const Banner = () => {
           </h1>
           <p className="text-lg mb-5 opacity-80">Dignissim massa diam elementum.</p>
           <div className="flex space-x-4 mb-10">
-            <button className="bg-[#6bb252] text-white font-semibold py-4 px-6 rounded-full hover:bg-orange-400 ">
+            <button className="bg-[#6bb252] text-white font-semibold py-4 px-6 rounded-full text-sm md:text-lg hover:bg-orange-400 ">
               Start Shopping
             </button>
-            <button className="bg-black text-white font-semibold py-2 px-5 rounded-full hover:shadow-2xl">
+            <button className="bg-black text-white font-semibold py-2 text-sm md:text-lg px-5 rounded-full hover:shadow-2xl">
               Join Now
             </button>
           </div>
