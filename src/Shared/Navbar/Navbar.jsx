@@ -20,6 +20,7 @@ import { CiBookmark } from "react-icons/ci";
 import { FaRegUserCircle } from "react-icons/fa";
 import React, { useState } from "react";
 import { ImCross } from "react-icons/im";
+import { Link } from 'react-router-dom';
 
 import logo from "../../assets/images/logo(2).png";
 
@@ -292,7 +293,10 @@ const Navbar = () => {
 
       {/* Icons */}
       <div className="flex items-center space-x-6 ml-2 mt-4 lg:mt-0">
-        <FaRegUserCircle className="text-2xl text-gray-600" />
+        
+      <Link to="/login">
+    <FaRegUserCircle className="text-2xl text-gray-600" />
+  </Link>
         <CiBookmark className="text-2xl text-gray-600" />
         <FaShoppingCart className="text-2xl text-gray-600" />
       </div>
@@ -301,5 +305,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
