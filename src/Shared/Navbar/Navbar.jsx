@@ -50,70 +50,70 @@ const Navbar = () => {
           <div className="flex flex-col items-start p-6 space-y-4 mt-10">
             <div className="flex items-center gap-2">
               <GiFruitBowl />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400 hover:text-orange-400" href="#">
                 Fruits and vegetables
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <LuMilk />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Dairy and Eggs
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <GiChickenLeg />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Meat and Poultry
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <IoFishOutline />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Seafood
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <GiSlicedBread />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Bakery and Bread
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <GiCannedFish />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Canned Goods
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <RiFridgeLine />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Frozen Foods
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <BiSolidBowlRice />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Pasta and Rice
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <MdFreeBreakfast />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Breakfast Foods
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <CiCoffeeCup />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Snacks and Chips
               </a>
             </div>
@@ -121,57 +121,57 @@ const Navbar = () => {
             <div className="flex items-center justify-center gap-2">
               <div className="collapse -ml-8  -space-y-3">
                 <input type="checkbox" />
-                <div className="collapse-title text-lg flex items-center gap-2">
+                <div className="collapse-title text-lg hover:text-orange-400 flex items-center gap-2">
                   <SiBuymeacoffee />
                   Beverages
                 </div>
-                <div className="collapse-content">
-                  <p className="text-lg">Water</p>
-                  <p className="text-lg">Juice</p>
-                  <p className="text-lg">Soda</p>
-                  <p className="text-lg">Tea</p>
+                <div className="collapse-content flex flex-col">
+                  <a className="text-lg hover:text-orange-400">Water</a>
+                  <a className="text-lg hover:text-orange-400">Juice</a>
+                  <a className="text-lg hover:text-orange-400">Soda</a>
+                  <a className="text-lg hover:text-orange-400">Tea</a>
                 </div>
               </div>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <GiHotSpices />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Spices and Seasonings
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <LuBaby />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Baby Food and Formula
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <FaPersonShelter />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Health and Wellness
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <LiaBreadSliceSolid />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Household Supplies
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <FaHandHoldingWater />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Personal Care
               </a>
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-2">
               <MdOutlinePets />
-              <a className="text-lg" href="#">
+              <a className="text-lg hover:text-orange-400" href="#">
                 Pet Food and Supplies
               </a>
             </div>
