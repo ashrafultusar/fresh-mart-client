@@ -60,7 +60,7 @@ const AllCategory = () => {
           disableOnInteraction: false,
         }}
         navigation={{
-          prevEl: prevRef.current,
+          prevEl: prevRef.current, 
           nextEl: nextRef.current,
         }}
         onBeforeInit={(swiper) => {
@@ -70,6 +70,9 @@ const AllCategory = () => {
         modules={[Navigation, Autoplay]}
         className="mySwiper"
         breakpoints={{
+          320: {
+            slidesPerView: 1,
+          },
           640: {
             slidesPerView: 3,
           },
