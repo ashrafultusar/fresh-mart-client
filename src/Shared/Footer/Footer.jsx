@@ -1,7 +1,6 @@
 // import logo from "../../assets/images/logo.png";
 // import logo from '../../assets/images/foodlogo.png';
-import logo from '../../assets/images/logoicon.png'
-
+import logo from "../../assets/images/logoicon.png";
 
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -14,21 +13,31 @@ const Footer = () => {
     <div>
       <footer className="footer bg-base-200 text-base-content p-10">
         <aside>
-                  <div className='flex items-center justify-center'>
-                  <div>
-                  <img className='h-36' src={logo} alt="" />
-                </div>
-                  <div className='space-y-1 -ml-6'>
-                  <p className='text-3xl font-bold '>FOOD MART</p>
-                <p className='text-lg'>G R O C E R Y   S T O R E</p>
-                </div>
-                  </div>
+          <div className="flex items-center justify-center">
+            <div>
+              <img className="h-36" src={logo} alt="" />
+            </div>
+            <div className="space-y-1 -ml-6">
+              <p className="text-3xl font-bold ">FOOD MART</p>
+              <p className="text-lg">G R O C E R Y S T O R E</p>
+            </div>
+          </div>
 
-                  <div className="flex mt-4 justify-around gap-6 ">
-                      <Link className="border py-2 px-3 text-lg rounded-md bg-[#ffffff]"><FaFacebookF /></Link>
-                      <Link className="border py-2 px-3 text-lg rounded-md bg-[#ffffff]"><FaInstagram /></Link>
-                      <Link className="border py-2 px-3 text-lg rounded-md bg-[#ffffff]">  <FaYoutube /></Link>
-                      <Link className="border py-2 px-3 text-lg rounded-md bg-[#ffffff]"> <FaTwitter /></Link>
+          <div className="flex mt-4 justify-around gap-6 ">
+            <Link className="border py-2 px-3 text-lg rounded-md bg-[#ffffff]">
+              <FaFacebookF />
+            </Link>
+            <Link className="border py-2 px-3 text-lg rounded-md bg-[#ffffff]">
+              <FaInstagram />
+            </Link>
+            <Link className="border py-2 px-3 text-lg rounded-md bg-[#ffffff]">
+              {" "}
+              <FaYoutube />
+            </Link>
+            <Link className="border py-2 px-3 text-lg rounded-md bg-[#ffffff]">
+              {" "}
+              <FaTwitter />
+            </Link>
           </div>
         </aside>
 

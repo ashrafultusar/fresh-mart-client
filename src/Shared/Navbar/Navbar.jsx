@@ -20,7 +20,7 @@ import { CiBookmark } from "react-icons/ci";
 import { FaRegUserCircle } from "react-icons/fa";
 import React, { useState } from "react";
 import { ImCross } from "react-icons/im";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import logo from "../../assets/images/logo(2).png";
 
@@ -50,7 +50,10 @@ const Navbar = () => {
           <div className="flex flex-col items-start p-6 space-y-4 mt-10">
             <div className="flex items-center gap-2">
               <GiFruitBowl />
-              <a className="text-lg hover:text-orange-400 hover:text-orange-400" href="#">
+              <a
+                className="text-lg hover:text-orange-400"
+                href="#"
+              >
                 Fruits and vegetables
               </a>
             </div>
@@ -195,12 +198,12 @@ const Navbar = () => {
           </button>
 
           {/* Logo */}
-          <button className="flex items-center gap-1 text-xl">
+          <Link href="/"><button  className="flex items-center gap-1 text-xl">
             <img className="w-10" src={logo} alt="Logo" />
             <p className="font-poppins font-bold text-[#364127]">
-              Food<span className="text-[#F95F09] ">Mart</span>
+              Fresh<span className="text-[#F95F09] ">Mart</span>
             </p>
-          </button>
+          </button></Link>
         </div>
       </div>
 
@@ -293,10 +296,9 @@ const Navbar = () => {
 
       {/* Icons */}
       <div className="flex items-center space-x-6 ml-2 mt-4 lg:mt-0">
-        
-      <Link to="/login">
-    <FaRegUserCircle className="text-2xl text-gray-600" />
-  </Link>
+        <Link to="/login">
+          <FaRegUserCircle className="text-2xl text-gray-600" />
+        </Link>
         <CiBookmark className="text-2xl text-gray-600" />
         <FaShoppingCart className="text-2xl text-gray-600" />
       </div>
