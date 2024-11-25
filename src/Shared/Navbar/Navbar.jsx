@@ -47,7 +47,7 @@ const Navbar = () => {
             <ImCross className="text-2xl" />
           </button>
 
-          <div className="flex flex-col items-start p-6 space-y-4 mt-10">
+          <div className="flex flex-col items-start p-6 space-y-4 my-10">
             <div className="flex items-center gap-2">
               <GiFruitBowl />
               <a
@@ -178,8 +178,6 @@ const Navbar = () => {
                 Pet Food and Supplies
               </a>
             </div>
-
-            <a className="btn btn-primary mt-4">Login</a>
           </div>
         </div>
 

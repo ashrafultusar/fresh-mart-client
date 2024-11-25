@@ -15,11 +15,11 @@ const Footer = () => {
         <aside>
           <div className="flex items-center justify-center">
             <div>
-              <img className="h-36" src={logo} alt="" />
+              <img className="h-24" src={logo} alt="" />
             </div>
             <div className="space-y-1 -ml-6">
-              <p className="text-3xl font-bold ">FOOD MART</p>
-              <p className="text-lg">G R O C E R Y S T O R E</p>
+              <p className="text-xl font-bold ">FRESH MART</p>
+              <p className="text-[17px] opacity-70">GROCERY STORE</p>
             </div>
           </div>
 

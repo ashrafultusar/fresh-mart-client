@@ -42,7 +42,7 @@ const Login = () => {
       {/* Back to Home Button with Margin from the Top */}
       <div className="absolute top-8 left-8 z-20">
         <Link to="/">
-          <button className="bg-[#1877F2] rounded-lg hover:bg-[#1877F2]/80 duration-300 transition-colors border border-transparent px-6 py-2">
+          <button className="bg-[#6BB252] rounded-lg hover:bg-orange-400 duration-300 transition-colors border border-transparent px-6 py-2">
             <IoHomeOutline className="text-2xl text-white" />
           </button>
         </Link>
@@ -102,7 +102,7 @@ const Login = () => {
             </div>
 
             <div className="form-control mt-4">
-              <button className="w-full bg-[#6BB252] py-2 rounded-md hover:bg-orange-400">
+              <button className="w-full bg-[#6BB252] py-2 rounded-md hover:bg-orange-400 duration-300 transition-colors">
                 Login
               </button>
             </div>
@@ -111,11 +111,11 @@ const Login = () => {
 
             <div className="flex-col space-y-3">
               <div className="form-control mt-4">
-                <button className="bg-[#6BB252] w-full py-2 rounded-md flex items-center justify-center  hover:bg-orange-400">
+                <button className="bg-[#6BB252] w-full py-2 rounded-md flex items-center justify-center  hover:bg-orange-400 duration-300 transition-colors">
                   <FaGoogle className="text-2xl" />
                 </button>
               </div>
-              <button className="bg-[#6BB252] w-full   flex items-center py-2 rounded-md justify-center hover:bg-orange-400">
+              <button className="bg-[#6BB252] w-full duration-300 transition-colors flex items-center py-2 rounded-md justify-center hover:bg-orange-400 ">
                 <FaGithub className="text-2xl" />
               </button>
             </div>
@@ -123,7 +123,7 @@ const Login = () => {
             <div className="text-center mt-4">
               <span>
                 Don't have an account?
-                <Link className="font-bold text-orange-400" to="/register">
+                <Link className="font-bold text-orange-400 " to="/register">
                   Register
                 </Link>
               </span>
